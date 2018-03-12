@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/menuMore_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="menuMore"
+        android:text="使用帮助" />
+
+    <Button
+        android:id="@+id/menuMore_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="menuMore"
+        android:text="检查更新" />
+
+
+</LinearLayout>
